@@ -1,11 +1,9 @@
-/* CSS Reset and Basic Setup */
 body {
     margin: 0;
     font-family: 'Plus Jakarta Sans', 'Poppins', sans-serif;
     background-color: #ffffff;
 }
 
-/* Main container */
 .container {
     max-width: 1140px;
     margin: 0 auto;
@@ -14,7 +12,6 @@ body {
     z-index: 2;
 }
 
-/* Hero Section */
 .hero-section-container {
     background-image: url('../image/Rectangle28.png');
     background-size: cover;
@@ -116,40 +113,11 @@ body {
     display: block;
 }
 
-/* About Section */
 .about-section {
     padding: 120px 0;
-    background-color: #F4F7FC;
-    position: relative;
-    overflow: hidden;
-    z-index: 1;
-}
-
-.about-section::before,
-.about-section::after {
-    content: '';
-    position: absolute;
     background-image: url('../image/Frame22.png');
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
-    z-index: -1;
-    opacity: 0.8;
-}
-
-.about-section::before {
-    width: 500px;
-    height: 500px;
-    top: -150px;
-    left: -200px;
-    transform: rotate(-15deg);
-}
-
-.about-section::after {
-    width: 600px;
-    height: 600px;
-    bottom: -200px;
-    right: -250px;
-    transform: rotate(10deg);
 }
 
 .about-content {
@@ -195,7 +163,6 @@ body {
     font-weight: 600;
 }
 
-/* Schedule Section */
 .schedule-section {
     padding: 100px 0;
     background: linear-gradient(to bottom, #E5EBFF 0%, #FFFFFF 100%);
@@ -245,7 +212,6 @@ body {
     border-bottom: none;
 }
 
-/* Requirements Section */
 .requirements-section {
     padding: 100px 0;
     background-color: #ffffff;
@@ -298,7 +264,6 @@ body {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
-/* FAQ Section */
 .faq-section {
     padding: 120px 0;
     background-color: #F4F7FC;
@@ -379,7 +344,6 @@ body {
     color: #555;
 }
 
-/* Footer Section */
 .site-footer {
     background-color: #ffffff;
     padding: 40px 0;
