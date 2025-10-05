@@ -1,14 +1,11 @@
 <?php
-// Start the session
 session_start();
 
-// Check if user is logged in, if yes redirect to dashboard
 if (isset($_SESSION['username'])) {
     header("Location: dashboard.php");
     exit;
 }
 
-// Process $_GET parameters if needed
 $page = isset($_GET['page']) ? $_GET['page'] : 'home';
 ?>
 <!DOCTYPE html>
@@ -221,4 +218,5 @@ $page = isset($_GET['page']) ? $_GET['page'] : 'home';
     <script src="script.js"></script>
 
 </body>
+
 </html>
