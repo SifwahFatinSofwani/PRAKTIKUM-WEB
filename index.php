@@ -46,6 +46,7 @@ $page = isset($_GET['page']) ? $_GET['page'] : 'home';
                         <span id="theme-mode-text">Light Mode</span>
                     </div>
                     <a href="login.php" class="login-btn">Masuk</a>
+                    <a href="register.php" class="login-btn">Daftar</a>
                 </div>
             </header>
 
@@ -218,5 +219,4 @@ $page = isset($_GET['page']) ? $_GET['page'] : 'home';
     <script src="script.js"></script>
 
 </body>
-
 </html>
